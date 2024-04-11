@@ -1,0 +1,21 @@
+﻿<Window x:Class="programacao_sozinho.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:programacao_sozinho"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="nifTXT" TextWrapping="Wrap" Text="nif" Margin="32,27,0,360" HorizontalAlignment="Left" Width="154"/>
+        <TextBox x:Name="nomeTXT" TextWrapping="Wrap" Text="nome" Margin="32,96,0,292" HorizontalAlignment="Left" Width="154"/>
+        <TextBox x:Name="profissaoTXT" TextWrapping="Wrap" Text="profissao" Margin="32,159,0,230" HorizontalAlignment="Left" Width="154"/>
+        <TextBox x:Name="empresaTXT" TextWrapping="Wrap" Text="empresa" Margin="32,220,0,165" HorizontalAlignment="Left" Width="154"/>
+        <TextBox x:Name="emailTXT" TextWrapping="Wrap" Text="email" Margin="32,285,0,108" HorizontalAlignment="Left" Width="154"/>
+        <TextBox x:Name="telemovelTXT" TextWrapping="Wrap" Text="telemovel" Margin="32,338,0,52" HorizontalAlignment="Left" Width="154"/>
+        <TextBox x:Name="enderecoTXT" TextWrapping="Wrap" Text="endereco" Margin="232,27,0,360" HorizontalAlignment="Left" Width="154"/>
+        <TextBox x:Name="cidadeTXT" TextWrapping="Wrap" Text="cidade" Margin="232,96,0,292" HorizontalAlignment="Left" Width="154"/>
+        <TextBox x:Name="paisTXT" TextWrapping="Wrap" Text="pais" Margin="232,159,0,230" HorizontalAlignment="Left" Width="154"/>
+        <Button Content="Insert" HorizontalAlignment="Left" Margin="232,309,0,0" VerticalAlignment="Top" Height="51" Width="140" Click="InserirButton_Click"/>
+    </Grid>
+</Window>
