@@ -7,15 +7,24 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBox x:Name="nifTXT" TextWrapping="Wrap" Text="nif" Margin="32,27,0,360" HorizontalAlignment="Left" Width="154"/>
-        <TextBox x:Name="nomeTXT" TextWrapping="Wrap" Text="nome" Margin="32,96,0,292" HorizontalAlignment="Left" Width="154"/>
-        <TextBox x:Name="profissaoTXT" TextWrapping="Wrap" Text="profissao" Margin="32,159,0,230" HorizontalAlignment="Left" Width="154"/>
-        <TextBox x:Name="empresaTXT" TextWrapping="Wrap" Text="empresa" Margin="32,220,0,165" HorizontalAlignment="Left" Width="154"/>
-        <TextBox x:Name="emailTXT" TextWrapping="Wrap" Text="email" Margin="32,285,0,108" HorizontalAlignment="Left" Width="154"/>
-        <TextBox x:Name="telemovelTXT" TextWrapping="Wrap" Text="telemovel" Margin="32,338,0,52" HorizontalAlignment="Left" Width="154"/>
-        <TextBox x:Name="enderecoTXT" TextWrapping="Wrap" Text="endereco" Margin="232,27,0,360" HorizontalAlignment="Left" Width="154"/>
-        <TextBox x:Name="cidadeTXT" TextWrapping="Wrap" Text="cidade" Margin="232,96,0,292" HorizontalAlignment="Left" Width="154"/>
-        <TextBox x:Name="paisTXT" TextWrapping="Wrap" Text="pais" Margin="232,159,0,230" HorizontalAlignment="Left" Width="154"/>
-        <Button Content="Insert" HorizontalAlignment="Left" Margin="232,309,0,0" VerticalAlignment="Top" Height="51" Width="140" Click="InserirButton_Click"/>
+        <TextBox x:Name="nifTXT" TextWrapping="Wrap" Text="" Margin="32,45,0,342" HorizontalAlignment="Left" Width="154"/>
+        <TextBox x:Name="nomeTXT" TextWrapping="Wrap" Text="" Margin="32,116,0,271" HorizontalAlignment="Left" Width="154"/>
+        <TextBox x:Name="profissaoTXT" TextWrapping="Wrap" Text="" Margin="32,192,0,196" HorizontalAlignment="Left" Width="154"/>
+        <TextBox x:Name="empresaTXT" TextWrapping="Wrap" Text="" Margin="32,267,0,118" HorizontalAlignment="Left" Width="154"/>
+        <TextBox x:Name="emailTXT" TextWrapping="Wrap" Text="" Margin="32,345,0,48" HorizontalAlignment="Left" Width="154"/>
+        <TextBox x:Name="telemovelTXT" TextWrapping="Wrap" Text="" Margin="216,45,0,344" HorizontalAlignment="Left" Width="154"/>
+        <TextBox x:Name="enderecoTXT" TextWrapping="Wrap" Text="" Margin="216,116,0,271" HorizontalAlignment="Left" Width="154"/>
+        <TextBox x:Name="cidadeTXT" TextWrapping="Wrap" Text="" Margin="216,192,0,196" HorizontalAlignment="Left" Width="154"/>
+        <TextBox x:Name="paisTXT" TextWrapping="Wrap" Text="" Margin="216,267,0,122" HorizontalAlignment="Left" Width="154"/>
+        <Button Content="Insert" HorizontalAlignment="Left" Margin="216,335,0,0" VerticalAlignment="Top" Height="51" Width="140" Click="InserirButton_Click"/>
+        <Label Content="NIF" Margin="32,21,716,366"/>
+        <Label Content="Nome" Margin="32,92,691,295"/>
+        <Label Content="Profissao" Margin="32,168,691,219"/>
+        <Label Content="Empresa" Margin="32,243,691,144"/>
+        <Label Content="Email" Margin="32,321,691,66"/>
+        <Label Content="Telemovel" Margin="216,21,491,366"/>
+        <Label Content="Endereco" Margin="216,92,507,295"/>
+        <Label Content="Cidade" Margin="216,170,507,217"/>
+        <Label Content="Pais" Margin="216,243,507,144"/>
     </Grid>
 </Window>
